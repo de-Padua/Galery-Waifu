@@ -73,7 +73,7 @@ arrayOfBtnNSFW.forEach(botao => {
               grid.innerHTML = "" 
             const arrPic = Array.from(data.files)
              arrPic.forEach(pic => {
-              return grid.innerHTML += `<a href = "${pic}" target="_blank"> <img src="${pic}" alt="" class = "card-tall"> </a>`
+              return grid.innerHTML += `<a href = "${pic}" target="_blank"> <img src="${pic}" alt="" > </a>`
              });
          })
       }

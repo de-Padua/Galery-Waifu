@@ -83,22 +83,21 @@ body,html{
 }
 .grid{
  
-    display: flex;
-    gap: 10px;
+   display: flex;
+   flex-wrap: wrap;
+   flex-grow: calc(20px);
+   align-content: center;
+   justify-content: center;
+   width: 100vw;
     
 }
 
 .card-tall{
-    border-radius: 30px;
-    width: 400px;
-    height: 400px;
-    object-fit: cover;
-    aspect-ratio: 1/2;
+
+  object-fit: cover;
+ height: 400px;
 }
-.card-tall:hover{
-    opacity: 0.6;
-    cursor: pointer;
-}
+
 
 .container{
     text-align: center;
